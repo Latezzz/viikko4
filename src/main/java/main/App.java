@@ -24,7 +24,7 @@ public class App
                     case 1:
                         System.out.println("Anna opiskelijan nimi?");
                         String name = sc.nextLine();
-                        System.out.println("Anna opiskelijan opiskelunumero:");
+                        System.out.println("Anna opiskelijan opiskelijanumero:");
                         int studentNumber = Integer.parseInt(sc.nextLine());
 
                         newStudent = new Student(name, studentNumber);
@@ -86,7 +86,7 @@ public class App
 
                         break;
                     case 0:
-                        System.out.println("Kiitos ohjelman käytöstä");
+                        System.out.println("Kiitos ohjelman käytöstä.");
                         exit = true;
 
                         break;                          
