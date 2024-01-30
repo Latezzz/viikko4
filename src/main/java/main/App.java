@@ -61,7 +61,7 @@ public class App
                         break;
                     case 5:
                         university.listStudents();
-                        System.out.println("Minkä opiskelijan suoriteiden keskiarvo lasketaan?");
+                        System.out.println("Minkä opiskelijan suoritteiden keskiarvo lasketaan?");
                         int id3 = Integer.parseInt(sc.nextLine());
                         Student s3 = university.getStudentById(id3);                        
                         
@@ -70,7 +70,7 @@ public class App
                         break;
                     case 6:
                         university.listStudents();
-                        System.out.println("Minkä opiskelijan suoriteiden mediaani lasketaan?");
+                        System.out.println("Minkä opiskelijan suoritteiden mediaani lasketaan?");
                         int id4 = Integer.parseInt(sc.nextLine());
                         Student s4 = university.getStudentById(id4);
 
